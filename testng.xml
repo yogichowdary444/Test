@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelTestCases" parallel="tests">
+
+  <test name="ff">
+  <parameter name="browser" value="FF"></parameter>
+  <classes>
+  <class name="crossBrowser.ParallelRunning"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="chrome">
+  <parameter name="browser" value="Chrome"></parameter>
+  <classes>
+  <class name="crossBrowser.ParallelRunning"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="IETestcases">
+  <parameter name="browser" value="ie"></parameter>
+  <classes>
+  <class name="crossBrowser.ParallelRunning"/>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- ParallelTestCases -->
