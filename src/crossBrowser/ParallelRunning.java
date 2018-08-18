@@ -13,19 +13,19 @@ public class ParallelRunning {
 	
 	@Test
 	@Parameters("browser")
-	public void verifyTitle(String BrowserName) {
+	public void verifyTitle(String browserName) {
 
-		if(BrowserName.equalsIgnoreCase("FF")){
+		if(browserName.equalsIgnoreCase("FF")){
 			
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\yogi.v\\Downloads\\geckodriver-v0.21.0-win64\\geckodriver.exe");
 			driver=new FirefoxDriver();
 			
-		} else if(BrowserName.equalsIgnoreCase("Chrome")){
+		} else if(browserName.equalsIgnoreCase("Chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\Users\\yogi.v\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
 			driver=new ChromeDriver();
 			
 		}
-		else if(BrowserName.equalsIgnoreCase("IE")){
+		else if(browserName.equalsIgnoreCase("IE")){
 			System.setProperty("webdriver.ie.driver", "C:\\Users\\yogi.v\\Downloads\\IEDriverServer_x64_3.13.0\\IEDriverServer.exe");
 			driver = new InternetExplorerDriver();
 			}

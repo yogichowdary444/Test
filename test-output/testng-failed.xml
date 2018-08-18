@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="bootstrap_dropdown.Auto_suggestions">
+      <class name="selenium_Grid.Example1">
         <methods>
-          <include name="ChromeBrowser"/>
+          <include name="m2"/>
+          <include name="launch"/>
+          <include name="fb"/>
         </methods>
-      </class> <!-- bootstrap_dropdown.Auto_suggestions -->
+      </class> <!-- selenium_Grid.Example1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

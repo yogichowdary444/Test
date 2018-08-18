@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\yogi.v\AppData\Local\Temp\testng-eclipse--1440276122\testng-customsuite.xml</span>
+                    <span>C:\Users\yogi.v\AppData\Local\Temp\testng-eclipse-1181396978\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="bootstrap_dropdown.Auto_suggestions" hash-for-method="ChromeBrowser">ChromeBrowser</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG_priority.Priority" hash-for-method="a">a</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG_priority.Priority" hash-for-method="bala">bala</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testNG_priority.Priority" hash-for-method="balayya1">balayya1</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -119,14 +129,28 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">bootstrap_dropdown.Auto_suggestions</span>
+              <span class="class-name">testNG_priority.Priority</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ChromeBrowser">
-                  </a> <!-- ChromeBrowser -->
-                  <span class="method-name">ChromeBrowser</span>
+                  <a name="a">
+                  </a> <!-- a -->
+                  <span class="method-name">a</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="bala">
+                  </a> <!-- bala -->
+                  <span class="method-name">bala</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="balayya1">
+                  </a> <!-- balayya1 -->
+                  <span class="method-name">balayya1</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -134,7 +158,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\yogi.v\AppData\Local\Temp\testng-eclipse--1440276122\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\yogi.v\AppData\Local\Temp\testng-eclipse-1181396978\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -143,7 +167,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;bootstrap_dropdown.Auto_suggestions&quot;/&gt;
+      &lt;class name=&quot;testNG_priority.Priority&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -183,16 +207,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ChromeBrowser')
-data.setCell(0, 2, 'bootstrap_dropdown.Auto_suggestions')
-data.setCell(0, 3, 18831);
+data.setCell(0, 1, 'a')
+data.setCell(0, 2, 'testNG_priority.Priority')
+data.setCell(0, 3, 29);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'bala')
+data.setCell(1, 2, 'testNG_priority.Priority')
+data.setCell(1, 3, 7);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'balayya1')
+data.setCell(2, 2, 'testNG_priority.Priority')
+data.setCell(2, 3, 5);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 41 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -218,10 +250,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">bootstrap_dropdown.Auto_suggestions</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testNG_priority.Priority</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">ChromeBrowser</span>
+                <span class="method-name">a</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bala</span>
+                <span class="method-start">35 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">balayya1</span>
+                <span class="method-start">45 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
